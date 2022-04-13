@@ -1,0 +1,35 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+
+
+#app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+
+}
+
+
+.avocado-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avocado-container:hover{
+    border: 1px solid rgb(123, 177, 15);
+}
+
+
+.avocado-image{
+    width: 150px;
+}
+
+.avocado-price{
+    margin-top: 50px;
+    margin-right: 100px;
+    color: grey;
+    font-size: 1.5rem;
+}
